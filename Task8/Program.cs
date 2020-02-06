@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Task8Library;
-using Task8Library.Models;
 
 namespace Task8
 {
@@ -14,10 +9,7 @@ namespace Task8
         {
             Validation validation = new Validation();
 
-            validation.GetInvoice();
-
-            //validation.PrintShipments();
-
+            validation.PrintShipments();
             Console.ReadKey();
         }
     }

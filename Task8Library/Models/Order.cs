@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using System.Runtime.Serialization;
+﻿using Newtonsoft.Json;
 
 namespace Task8Library.Models
 {
@@ -24,7 +18,7 @@ namespace Task8Library.Models
 
         public override string ToString()
         {
-            return OrderId + "\t" + ProductType.ToString() + "\t" + ProductQuantity.ToString();
+            return "Order ID: " + OrderId + "\t" + "Product Type: " + ProductType + "\t" + "Product Quantity: " + ProductQuantity;
         }
     }
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0933A0CE-BA4E-44A7-A707-D613957089E0}</ProjectGuid>
+    <ProjectGuid>{046DEC16-69D8-47FD-B2BC-71E7EA538468}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Task8</RootNamespace>
     <AssemblyName>Task8</AssemblyName>
@@ -38,7 +38,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Task8Library\Task8Library.csproj">
-      <Project>{915f5334-b989-4ad7-a25b-a5eb822482e9}</Project>
+      <Project>{12eb8e17-b3a0-437a-8d4c-fc1842453e0f}</Project>
       <Name>Task8Library</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,10 +1,10 @@
 {
   "invoice": {
-    "shipment": [
+    "shipments": [
       {
         "shipmentid": "accfad0d-1759-4684-adb7-03baae78a23a",
         "address": "address1",
-        "order": [
+        "orders": [
           {
             "orderid": 1,
             "producttype": "producttype1",
@@ -37,7 +37,7 @@
       {
         "shipmentid": "9764bdd3-a0be-4709-a1d3-5f7d357c022d",
         "address": "address2",
-        "order": [
+        "orders": [
           {
             "orderid": 4,
             "producttype": "producttype4",
@@ -52,7 +52,7 @@
       {
         "shipmentid": "6a2583b8-e73c-4096-b22b-330d4bed11a0",
         "address": "address3",
-        "order": [
+        "orders": [
           {
             "orderid": 5,
             "producttype": "producttype5",
@@ -67,7 +67,7 @@
       {
         "shipmentid": "4d41e722-2dcc-43c3-82ce-e9274f56f853",
         "address": "address4",
-        "order": [
+        "orders": [
           {
             "orderid": 6,
             "producttype": "producttype6",
@@ -82,7 +82,7 @@
       {
         "shipmentid": "2486c026-4fb0-48d2-97c0-b3909b4721a6",
         "address": "address5",
-        "order": [
+        "orders": [
           {
             "orderid": 7,
             "producttype": "producttype7",
