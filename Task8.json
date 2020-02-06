@@ -1,0 +1,99 @@
+{
+  "invoice": {
+    "shipment": [
+      {
+        "shipmentid": "accfad0d-1759-4684-adb7-03baae78a23a",
+        "address": "address1",
+        "order": [
+          {
+            "orderid": 1,
+            "producttype": "producttype1",
+            "productquantity": 1,
+            "customer": {
+              "customerid": "8c0c6d70-01ad-4a79-a40d-9895b0be96b9",
+              "customername": "customer1"
+            }
+          },
+          {
+            "orderid": 2,
+            "producttype": "producttype2",
+            "productquantity": 2,
+            "customer": {
+              "customerid": "6d344cf2-1082-4a93-8d7f-8d0498e45b31",
+              "customername": "customer2"
+            }
+          },
+          {
+            "orderid": 3,
+            "producttype": "producttype3",
+            "productquantity": 3,
+            "customer": {
+              "customerid": "8c0c6d70-01ad-4a79-a40d-9895b0be96b9",
+              "customername": "customer1"
+            }
+          }
+        ]
+      },
+      {
+        "shipmentid": "9764bdd3-a0be-4709-a1d3-5f7d357c022d",
+        "address": "address2",
+        "order": [
+          {
+            "orderid": 4,
+            "producttype": "producttype4",
+            "productquantity": 4,
+            "customer": {
+              "customerid": "21fbea51-4d0f-44a0-99f3-8a4624170f05",
+              "customername": "customer4"
+            }
+          }
+        ]
+      },
+      {
+        "shipmentid": "6a2583b8-e73c-4096-b22b-330d4bed11a0",
+        "address": "address3",
+        "order": [
+          {
+            "orderid": 5,
+            "producttype": "producttype5",
+            "productquantity": 5,
+            "customer": {
+              "customerid": "69258bd6-f16a-4fe8-8a5d-300aab1255ef",
+              "customername": "customer5"
+            }
+          }
+        ]
+      },
+      {
+        "shipmentid": "4d41e722-2dcc-43c3-82ce-e9274f56f853",
+        "address": "address4",
+        "order": [
+          {
+            "orderid": 6,
+            "producttype": "producttype6",
+            "productquantity": 6,
+            "customer": {
+              "customerid": "dafa352b-68ff-4753-996f-e026e2b11c8b",
+              "customername": "customer3"
+            }
+          }
+        ]
+      },
+      {
+        "shipmentid": "2486c026-4fb0-48d2-97c0-b3909b4721a6",
+        "address": "address5",
+        "order": [
+          {
+            "orderid": 7,
+            "producttype": "producttype7",
+            "productquantity": 7,
+            "customer": {
+              "customerid": "69258bd6-f16a-4fe8-8a5d-300aab1255ef",
+              "customername": "customer5"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
