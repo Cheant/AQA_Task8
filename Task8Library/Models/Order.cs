@@ -24,7 +24,7 @@ namespace Task8Library.Models
 
         public override string ToString()
         {
-            return OrderId.ToString() + "\t" + ProductType.ToString() + "\t" + ProductQuantity.ToString();
+            return OrderId + "\t" + ProductType.ToString() + "\t" + ProductQuantity.ToString();
         }
     }
 }

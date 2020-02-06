@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Task8Library.Models
 {
-    public class Invoice
+    public class Info
     {
-        [JsonProperty("shipments")]
-        public List<Shipment> Shipments { get; set; }
-    }    
+        [JsonProperty("invoice")]
+        public Invoice Invoice { get; set; }
+    }
 }

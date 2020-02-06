@@ -15,17 +15,29 @@ namespace Task8Library.Models
         [JsonProperty("address")]
         public string Address { get; set; }
 
-        [JsonProperty("order")]
-        public List<Order> Order { get; set; }
+        [JsonProperty("orders")]
+        public List<Order> Orders { get; set; }
+
+        public List<string> GetOrders()
+        {
+            List<string> list = new List<string>();
+
+            foreach (var order in Orders)
+            {
+                list.Add(ShipmentId.ToString() + "\t" + Address.ToString() + "\t" + order);
+            }
+
+            return list;
+        }
 
         public override string ToString()
         {
-            foreach (var order in Order)
+            foreach (var order in Orders)
             {
-                return ShipmentId.ToString() + "\t" + Address.ToString() + order;
+                return ShipmentId.ToString() + "\t" + Address.ToString() + "\t" + order;
             }
 
-            return ShipmentId.ToString() + "\t" + Address.ToString();
+            return "";
         }
     }
 }

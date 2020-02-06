@@ -1,0 +1,8 @@
+C:\Users\AntonC\source\repos\Task8\Task8Library\bin\Debug\Task8Library.dll
+C:\Users\AntonC\source\repos\Task8\Task8Library\bin\Debug\Task8Library.pdb
+C:\Users\AntonC\source\repos\Task8\Task8Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AntonC\source\repos\Task8\Task8Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AntonC\source\repos\Task8\Task8Library\obj\Debug\Task8Library.csprojAssemblyReference.cache
+C:\Users\AntonC\source\repos\Task8\Task8Library\obj\Debug\Task8Library.csproj.CopyComplete
+C:\Users\AntonC\source\repos\Task8\Task8Library\obj\Debug\Task8Library.dll
+C:\Users\AntonC\source\repos\Task8\Task8Library\obj\Debug\Task8Library.pdb

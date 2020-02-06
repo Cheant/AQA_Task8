@@ -19,16 +19,27 @@ namespace Task8Library
         {
             //string jsonText = File.ReadAllText(path);
 
+            string jsonText2 = File.ReadAllText(path);
+            Info invoice2 = JsonConvert.DeserializeObject<Info>(jsonText2);
+
             string jsonText = JObject.Parse(File.ReadAllText(path)).SelectToken("invoice").ToString();
 
             Invoice invoice = JsonConvert.DeserializeObject<Invoice>(jsonText);
 
             //string text2 = JsonConvert.SerializeObject(invoice);
 
-            foreach (var shipment in invoice.Shipment)
+            foreach (var shipment in invoice.Shipments)
             {
-                Console.WriteLine(shipment);
+                Console.WriteLine(shipment.ToString());
+                foreach(var order in shipment.Orders)
+                {
+                    Console.WriteLine(order.ToString());
+                    Console.WriteLine(order.OrderId);
+                    Console.WriteLine(order.Customer.Name);
+                }
+                
             }
+
 
             return invoice;
         }
